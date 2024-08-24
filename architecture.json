@@ -2,5 +2,9 @@
     {
         "level": 1,
         "task_description": "This is the user's current request of changes to be made:\nadd a button that says hadoken"
+    },
+    {
+        "level": 1,
+        "task_description": "This is the user's previous chat history with this AI:\n\nAI: Great idea, adding a button that says \"Hadoken\" now.\nUser: add a button that says hadoken\n\nThis is the user's current request of changes to be made:\nCan you add a button that says hadoken next to the sign in button"
     }
 ]
