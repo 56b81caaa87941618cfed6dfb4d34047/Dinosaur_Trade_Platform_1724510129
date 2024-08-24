@@ -12,5 +12,11 @@
         "content": "Great idea, adding a button that says \"Hadoken\" now.",
         "timestamp": "24082024143949",
         "message_id": "guest24082024143948"
+    },
+    {
+        "role": "user",
+        "content": "add a button that says hadoken",
+        "timestamp": "24082024143948",
+        "message_id": "guest24082024143948"
     }
 ]
