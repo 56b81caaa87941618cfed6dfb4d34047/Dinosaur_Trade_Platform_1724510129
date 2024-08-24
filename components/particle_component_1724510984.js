@@ -4,17 +4,17 @@ INSTRUCTION: Summary: This is a canvas element for displaying a purple glow and 
 
 <template>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <div id="illustration" class="absolute inset-0 -z-10 -mx-28 rounded-b-[5rem] pointer-events-none overflow-hidden" style="z-index:0" aria-hidden="true">
-        <div id="illustration-inner" class="absolute left-1/2 -translate-x-1/2 bottom-0 -z-10">
+    <div id="illustration" class="absolute inset-0 -z-10 -mx-28 rounded-b-[5rem] pointer-events-none overflow-hidden bg-gradient-to-br from-pink-400 to-purple-600 bg-opacity-50 backdrop-filter backdrop-blur-lg shadow-lg" style="z-index:0" aria-hidden="true">
+        <div id="illustration-inner" class="absolute left-1/2 -translate-x-1/2 bottom-0 -z-10 rounded-lg bg-opacity-30 backdrop-filter backdrop-blur-md shadow-xl">
             <svg id="illustration-svg" xmlns="http://www.w3.org/2000/svg" class="max-w-none" xmlns:xlink="http://www.w3.org/1999/xlink" width="2146" height="744">
                 <defs>
                     <linearGradient id="gradient1" x1="43.176%" x2="50%" y1="12.436%" y2="97.744%">
-                        <stop offset="0%" stop-color="#A855F7" />
-                        <stop offset="100%" stop-color="#6366F1" />
+                        <stop offset="0%" stop-color="#FF69B4" />
+                        <stop offset="100%" stop-color="#8A2BE2" />
                     </linearGradient>
                     <linearGradient id="gradient2" x1="19.609%" x2="50%" y1="14.544%" y2="100%">
-                        <stop offset="0%" stop-color="#6366F1" />
-                        <stop offset="100%" stop-color="#6366F1" stop-opacity="0" />
+                        <stop offset="0%" stop-color="#FF1493" />
+                        <stop offset="100%" stop-color="#8A2BE2" stop-opacity="0" />
                     </linearGradient>
                     <filter id="filter1" width="145.2%" height="187%" x="-22.6%" y="-43.5%" filterUnits="objectBoundingBox">
                         <feGaussianBlur in="SourceGraphic" stdDeviation="50" />
@@ -23,9 +23,9 @@ INSTRUCTION: Summary: This is a canvas element for displaying a purple glow and 
                         <feGaussianBlur in="SourceGraphic" stdDeviation="50" />
                     </filter>
                     <radialGradient id="radial-gradient" cx="50%" cy="100%" r="77.678%" fx="50%" fy="100%" gradientTransform="matrix(0 -1 .37746 0 .123 1.5)">
-                        <stop offset="0%" stop-color="#E9D5FF" />
-                        <stop offset="22.35%" stop-color="#A855F7" />
-                        <stop offset="100%" stop-color="#0F172A" stop-opacity="0" />
+                        <stop offset="0%" stop-color="#FFC0CB" />
+                        <stop offset="22.35%" stop-color="#FF69B4" />
+                        <stop offset="100%" stop-color="#4B0082" stop-opacity="0" />
                     </radialGradient>
                     <path id="path1" d="M0 0h2440v921H0z" />
                 </defs>
