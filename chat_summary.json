@@ -18,5 +18,11 @@
         "content": "add a button that says hadoken",
         "timestamp": "24082024143948",
         "message_id": "guest24082024143948"
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the 'Hadoken' button to be located within the app?\", \"option1\": \"On the main trading interface\", \"option2\": \"In the user profile section\"}, {\"question 2\": \"What action should be triggered when the 'Hadoken' button is clicked?\", \"option1\": \"Initiate a new trade\", \"option2\": \"Display detailed information about a selected dinosaur\"}], \"input_token_count\": 269, \"output_token_count\": 98, \"time_taken\": \"0:00:02.198113\"}",
+        "timestamp": "24082024143953",
+        "message_id": "guest24082024143948"
     }
 ]
