@@ -70,6 +70,11 @@ INSTRUCTION: 3. Desktop sign-in and sign-up links on the right.
         <!-- Desktop Sign In & Sign Up Links -->
         <ul id="desktop-sign-in-links" class="flex-1 flex justify-end items-center">
           <li>
+            <button class="mr-4 px-4 py-2 bg-purple-700 text-white rounded-full hover:bg-purple-600 transition duration-300">
+              Hadoken
+            </button>
+          </li>
+          <li>
             <a
               id="sign-in-link"
               class="font-medium text-sm whitespace-nowrap transition duration-150 ease-in-out text-white hover:text-pink-200"
