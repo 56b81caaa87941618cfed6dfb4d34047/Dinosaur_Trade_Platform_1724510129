@@ -6,5 +6,11 @@
         "timestamp": "1724510131",
         "component_file_name": "",
         "div_id": ""
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Great idea, adding a button that says \"Hadoken\" now.",
+        "timestamp": "24082024143949",
+        "message_id": "guest24082024143948"
     }
 ]
