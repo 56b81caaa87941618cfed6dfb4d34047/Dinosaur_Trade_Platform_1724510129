@@ -6,8 +6,8 @@ INSTRUCTION: 3. Desktop sign-in and sign-up links on the right.
 -->
 
 <template>
-  <header class="w-full z-30 bg-gradient-to-r from-pink-500 to-purple-600 bg-opacity-30 backdrop-blur-md" id="header-section-container">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+  <header class="w-full z-30" id="header-section-container">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 bg-white">
       <div class="flex items-center justify-between h-16 md:h-20">
         <!-- Site Branding -->
         <div id="site-branding" class="flex-1">
@@ -22,7 +22,7 @@ INSTRUCTION: 3. Desktop sign-in and sign-up links on the right.
             <li>
               <a
                 id="Home-link"
-                class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out text-white hover:text-pink-200"
+                class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out text-slate-300 hover:text-white"
                 href="Home.html"
               >
                 Home
@@ -31,7 +31,7 @@ INSTRUCTION: 3. Desktop sign-in and sign-up links on the right.
             <li>
               <a
                 id="Marketplace-link"
-                class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out text-white hover:text-pink-200"
+                class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out text-slate-300 hover:text-white"
                 href="Marketplace.html"
               >
                 Marketplace
@@ -40,7 +40,7 @@ INSTRUCTION: 3. Desktop sign-in and sign-up links on the right.
             <li>
               <a
                 id="My Collection-link"
-                class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out text-white hover:text-pink-200"
+                class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out text-slate-300 hover:text-white"
                 href="My Collection.html"
               >
                 My Collection
@@ -49,7 +49,7 @@ INSTRUCTION: 3. Desktop sign-in and sign-up links on the right.
             <li>
               <a
                 id="About-link"
-                class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out text-white hover:text-pink-200"
+                class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out text-slate-300 hover:text-white"
                 href="About.html"
               >
                 About
@@ -58,7 +58,7 @@ INSTRUCTION: 3. Desktop sign-in and sign-up links on the right.
             <li>
               <a
                 id="Contact-link"
-                class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out text-white hover:text-pink-200"
+                class="font-medium text-sm mx-4 lg:mx-5 transition duration-150 ease-in-out text-slate-300 hover:text-white"
                 href="Contact.html"
               >
                 Contact
@@ -72,7 +72,7 @@ INSTRUCTION: 3. Desktop sign-in and sign-up links on the right.
           <li>
             <a
               id="sign-in-link"
-              class="font-medium text-sm whitespace-nowrap transition duration-150 ease-in-out text-white hover:text-pink-200"
+              class="font-medium text-sm whitespace-nowrap transition duration-150 ease-in-out text-slate-300 hover:text-white"
               href="signin.html"
             >
               Sign in
@@ -81,19 +81,11 @@ INSTRUCTION: 3. Desktop sign-in and sign-up links on the right.
           <li class="ml-6">
             <a
               id="sign-up-link"
-              class="btn-sm transition duration-150 ease-in-out w-full group relative text-white hover:text-pink-200 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full px-4 py-2"
+              class="btn-sm transition duration-150 ease-in-out w-full group relative before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-full before:pointer-events-none text-slate-300 hover:text-white [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box]"
               href="signup.html"
             >
-              <span class="relative inline-flex items-center"> Sign up <span id="sign-up-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1 text-white">-&gt;</span> </span>
+              <span class="relative inline-flex items-center"> Sign up <span id="sign-up-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1 text-purple-500">-&gt;</span> </span>
             </a>
-          </li>
-          <li class="ml-6">
-            <button
-              id="hadoken-button"
-              class="btn-sm transition duration-150 ease-in-out w-full group relative text-white hover:text-pink-200 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full px-4 py-2"
-            >
-              Hadoken
-            </button>
           </li>
         </ul>
 
@@ -108,7 +100,7 @@ INSTRUCTION: 3. Desktop sign-in and sign-up links on the right.
             :aria-expanded="expanded"
           >
             <span class="sr-only">Menu</span>
-            <svg id="hamburger-icon" class="w-5 h-5 fill-current transition duration-150 ease-in-out text-white hover:text-pink-200" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <svg id="hamburger-icon" class="w-5 h-5 fill-current transition duration-150 ease-in-out text-slate-300 hover:text-white" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
               <rect y="2" width="20" height="2" rx="1" />
               <rect y="9" width="20" height="2" rx="1" />
               <rect y="16" width="20" height="2" rx="1" />
@@ -124,21 +116,21 @@ INSTRUCTION: 3. Desktop sign-in and sign-up links on the right.
             @keydown.escape.window="expanded = false"
             x-cloak
           >
-            <ul id="mobile-nav-list" class="rounded-lg px-4 py-1.5 bg-gradient-to-r from-pink-500 to-purple-600 bg-opacity-70 backdrop-blur-md shadow-lg">
+            <ul id="mobile-nav-list" class="border border-transparent rounded-lg px-4 py-1.5 [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box]">
               <li>
-                <a id="mobile-Home-link" class="flex font-medium text-sm py-1.5 text-white hover:text-pink-200" href="Home.html">Home</a>
+                <a id="mobile-Home-link" class="flex font-medium text-sm py-1.5 text-slate-300 hover:text-white" href="Home.html">Home</a>
               </li>
               <li>
-                <a id="mobile-Marketplace-link" class="flex font-medium text-sm py-1.5 text-white hover:text-pink-200" href="Marketplace.html">Marketplace</a>
+                <a id="mobile-Marketplace-link" class="flex font-medium text-sm py-1.5 text-slate-300 hover:text-white" href="Marketplace.html">Marketplace</a>
               </li>
               <li>
-                <a id="mobile-My Collection-link" class="flex font-medium text-sm py-1.5 text-white hover:text-pink-200" href="My Collection.html">My Collection</a>
+                <a id="mobile-My Collection-link" class="flex font-medium text-sm py-1.5 text-slate-300 hover:text-white" href="My Collection.html">My Collection</a>
               </li>
               <li>
-                <a id="mobile-About-link" class="flex font-medium text-sm py-1.5 text-white hover:text-pink-200" href="About.html">About</a>
+                <a id="mobile-About-link" class="flex font-medium text-sm py-1.5 text-slate-300 hover:text-white" href="About.html">About</a>
               </li>
               <li>
-                <a id="mobile-Contact-link" class="flex font-medium text-sm py-1.5 text-white hover:text-pink-200" href="Contact.html">Contact</a>
+                <a id="mobile-Contact-link" class="flex font-medium text-sm py-1.5 text-slate-300 hover:text-white" href="Contact.html">Contact</a>
               </li>
             </ul>
           </nav>
@@ -154,16 +146,6 @@ export default {
   data() {
     return {
       expanded: false,
-      tab: null,
-    };
-  },
-  methods: {
-    // Hadoken button click handler
-    onHadokenClick() {
-      console.log('Hadoken!');
-    }
-    // End of Hadoken button click handler
-  }
       tab: null,
     };
   },
