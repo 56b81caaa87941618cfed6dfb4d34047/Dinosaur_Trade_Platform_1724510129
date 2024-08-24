@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Absolutely, adding a \"Hadoken\" button next to the sign-in button.",
+        "message_id": "guest24082024144650",
+        "timestamp": "24082024144651",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "Can you add a button that says hadoken next to the sign in button",
         "message_id": "guest24082024144650",
