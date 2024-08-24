@@ -4,5 +4,6 @@
     "project_description": "dinosaur trading marketplace",
     "creation_time": "2024-08-24 10:35:29.179615",
     "current_state": "The current state of the application has a navbar and a header",
-    "selected_starter_template_id": "stellar"
+    "selected_starter_template_id": "stellar",
+    "frontend_theme_prompt": "The image features a surreal, cosmic landscape with vibrant pink and purple hues, creating a dreamy and otherworldly atmosphere with majestic mountains and multiple moons. The style is futuristic and fantastical, blending natural elements with vivid, ethereal colors."
 }
