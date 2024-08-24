@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the 'Hadoken' button to be the same size and style as the 'Sign In' button, or should it have a distinct appearance?\", \"option1\": \"Same size and style as 'Sign In' button\", \"option2\": \"Distinct appearance from 'Sign In' button\"}, {\"question 2\": \"What action should be triggered when the 'Hadoken' button is clicked?\", \"option1\": \"Display a special animation or effect\", \"option2\": \"Navigate the user to a different page or section\"}], \"input_token_count\": 315, \"output_token_count\": 124, \"time_taken\": \"0:00:02.758148\"}",
+        "message_id": "guest24082024144650",
+        "timestamp": "24082024144655",
+        "component_file_name": "purple_header_component_1724510131",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_ui_checklist",
         "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Add a 'Hadoken' button next to the sign-in button\", \"checked\": true}, {\"feature\": \"Implement an interactive dinosaur-themed cursor\", \"checked\": false}, {\"feature\": \"Add dynamic background animations of dinosaurs\", \"checked\": true}, {\"feature\": \"Incorporate a 'Favorites' feature for users to save their preferred dinosaurs\", \"checked\": true}, {\"feature\": \"Implement a search bar with auto-complete for dinosaur names\", \"checked\": true}, {\"feature\": \"Add a feature for users to leave reviews on dinosaur trades\", \"checked\": false}], \"input_token_count\": 269, \"output_token_count\": 122, \"time_taken\": \"0:00:04.221096\"}",
         "message_id": "guest24082024144650",
