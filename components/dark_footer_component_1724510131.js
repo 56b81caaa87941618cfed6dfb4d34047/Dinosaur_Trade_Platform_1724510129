@@ -9,11 +9,11 @@ INSTRUCTION: 5. The fifth column covers legal information such as the refund pol
 
 <template>
   <footer id="footer-section-container">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 bg-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 bg-gradient-to-br from-pink-400 to-purple-600 bg-opacity-30 backdrop-filter backdrop-blur-lg rounded-lg shadow-lg">
       <!-- Blocks -->
       <div class="grid sm:grid-cols-12 gap-8 py-8 md:py-12">
         <!-- 1st block -->
-        <div id="footer-block-1" class="sm:col-span-12 lg:col-span-4 order-1 lg:order-none">
+        <div id="footer-block-1" class="sm:col-span-12 lg:col-span-4 order-1 lg:order-none p-6">
           <div class="h-full flex flex-col sm:flex-row lg:flex-col justify-between">
             <div id="footer-logo-copyright" class="mb-4 sm:mb-0">
               <div class="mb-4">
@@ -27,9 +27,9 @@ INSTRUCTION: 5. The fifth column covers legal information such as the refund pol
                   <img src="./images/logo.svg" width="38" height="38" alt="Stellar" />
                 </a>
               </div>
-              <div id="footer-copyright" class="text-sm text-slate-400">
-                &copy; © 2023 DinoTrade. All rights reserved.
-                <span class="text-slate-500">-</span> All rights reserved.
+              <div id="footer-copyright" class="text-sm text-white">
+                © 2023 DinoTrade. All rights reserved.
+                <span class="text-pink-200">-</span> Exploring the cosmic realm of dino trading
               </div>
             </div>
             <!-- Social links -->
@@ -37,7 +37,7 @@ INSTRUCTION: 5. The fifth column covers legal information such as the refund pol
               <li>
                 <a
                   id="footer-social-link-1"
-                  class="flex justify-center items-center transition duration-150 ease-in-out text-purple-500 hover:text-purple-400"
+                  class="flex justify-center items-center transition duration-150 ease-in-out text-white hover:text-pink-200"
                   href="#0"
                   aria-label="Twitter"
                 >
@@ -55,7 +55,7 @@ INSTRUCTION: 5. The fifth column covers legal information such as the refund pol
               <li>
                 <a
                   id="footer-social-link-2"
-                  class="ml-2 flex justify-center items-center transition duration-150 ease-in-out text-purple-500 hover:text-purple-400"
+                  class="ml-2 flex justify-center items-center transition duration-150 ease-in-out text-white hover:text-pink-200"
                   href="#0"
                   aria-label="Dev.to"
                 >
@@ -70,7 +70,7 @@ INSTRUCTION: 5. The fifth column covers legal information such as the refund pol
               <li>
                 <a
                   id="footer-social-link-3"
-                  class="ml-2 flex justify-center items-center transition duration-150 ease-in-out text-purple-500 hover:text-purple-400"
+                  class="ml-2 flex justify-center items-center transition duration-150 ease-in-out text-white hover:text-pink-200"
                   href="#0"
                   aria-label="Github"
                 >
@@ -90,18 +90,18 @@ INSTRUCTION: 5. The fifth column covers legal information such as the refund pol
         </div>
 
         <!-- 2nd block -->
-        <div id="footer-block-2" class="sm:col-span-6 md:col-span-3 lg:col-span-2">
+        <div id="footer-block-2" class="sm:col-span-6 md:col-span-3 lg:col-span-2 p-6">
           <h6
             id="footer-block-2-title"
-            class="text-sm font-medium mb-2 text-slate-50 hover:text-purple-400"
+            class="text-sm font-medium mb-2 text-white hover:text-pink-200"
           >
             About DinoTrade
           </h6>
           <ul id="footer-block-2-list" class="text-sm space-y-2">
             <li>
               <a
-                id="footer-block-2-link-1 hover:text-slate-200"
-                class="transition duration-150 ease-in-out text-slate-400"
+                id="footer-block-2-link-1"
+                class="transition duration-150 ease-in-out text-white hover:text-pink-200"
                 href="#0"
               >
                 Our Mission
@@ -109,8 +109,8 @@ INSTRUCTION: 5. The fifth column covers legal information such as the refund pol
             </li>
             <li>
               <a
-                id="footer-block-2-link-2 hover:text-slate-200"
-                class="transition duration-150 ease-in-out text-slate-400"
+                id="footer-block-2-link-2"
+                class="transition duration-150 ease-in-out text-white hover:text-pink-200"
                 href="#0"
               >
                 How It Works
@@ -118,8 +118,8 @@ INSTRUCTION: 5. The fifth column covers legal information such as the refund pol
             </li>
             <li>
               <a
-                id="footer-block-2-link-3 hover:text-slate-200"
-                class="transition duration-150 ease-in-out text-slate-400"
+                id="footer-block-2-link-3"
+                class="transition duration-150 ease-in-out text-white hover:text-pink-200"
                 href="#0"
               >
                 Dino Species
@@ -127,8 +127,8 @@ INSTRUCTION: 5. The fifth column covers legal information such as the refund pol
             </li>
             <li>
               <a
-                id="footer-block-2-link-4 hover:text-slate-200"
-                class="transition duration-150 ease-in-out text-slate-400"
+                id="footer-block-2-link-4"
+                class="transition duration-150 ease-in-out text-white hover:text-pink-200"
                 href="#0"
               >
                 Careers
@@ -138,15 +138,15 @@ INSTRUCTION: 5. The fifth column covers legal information such as the refund pol
         </div>
 
         <!-- 3rd block -->
-        <div id="footer-block-3" class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <h6 id="footer-block-3-title" class="text-sm font-medium mb-2 text-slate-50">
+        <div id="footer-block-3" class="sm:col-span-6 md:col-span-3 lg:col-span-2 p-6">
+          <h6 id="footer-block-3-title" class="text-sm font-medium mb-2 text-white">
             Trader Resources
           </h6>
           <ul id="footer-block-3-list" class="text-sm space-y-2">
             <li>
               <a
                 id="footer-block-3-link-1"
-                class="transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
+                class="transition duration-150 ease-in-out text-white hover:text-pink-200"
                 href="#0"
               >
                 Dino Care Guide
@@ -155,7 +155,7 @@ INSTRUCTION: 5. The fifth column covers legal information such as the refund pol
             <li>
               <a
                 id="footer-block-3-link-2"
-                class="transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
+                class="transition duration-150 ease-in-out text-white hover:text-pink-200"
                 href="#0"
               >
                 Market Trends
@@ -164,7 +164,7 @@ INSTRUCTION: 5. The fifth column covers legal information such as the refund pol
             <li>
               <a
                 id="footer-block-3-link-3"
-                class="transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
+                class="transition duration-150 ease-in-out text-white hover:text-pink-200"
                 href="#0"
               >
                 Trading Tips
@@ -173,7 +173,7 @@ INSTRUCTION: 5. The fifth column covers legal information such as the refund pol
             <li>
               <a
                 id="footer-block-3-link-4"
-                class="transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
+                class="transition duration-150 ease-in-out text-white hover:text-pink-200"
                 href="#0"
               >
                 FAQs
@@ -183,15 +183,15 @@ INSTRUCTION: 5. The fifth column covers legal information such as the refund pol
         </div>
 
         <!-- 4th block -->
-        <div id="footer-block-4" class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <h6 id="footer-block-4-title" class="text-sm font-medium mb-2 text-slate-50">
+        <div id="footer-block-4" class="sm:col-span-6 md:col-span-3 lg:col-span-2 p-6">
+          <h6 id="footer-block-4-title" class="text-sm font-medium mb-2 text-white">
             Connect With Us
           </h6>
           <ul id="footer-block-4-list" class="text-sm space-y-2">
             <li>
               <a
                 id="footer-block-4-link-1"
-                class="transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
+                class="transition duration-150 ease-in-out text-white hover:text-pink-200"
                 href="#0"
               >
                 Facebook
@@ -200,7 +200,7 @@ INSTRUCTION: 5. The fifth column covers legal information such as the refund pol
             <li>
               <a
                 id="footer-block-4-link-2"
-                class="transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
+                class="transition duration-150 ease-in-out text-white hover:text-pink-200"
                 href="#0"
               >
                 Twitter
@@ -209,7 +209,7 @@ INSTRUCTION: 5. The fifth column covers legal information such as the refund pol
             <li>
               <a
                 id="footer-block-4-link-3"
-                class="transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
+                class="transition duration-150 ease-in-out text-white hover:text-pink-200"
                 href="#0"
               >
                 Instagram
@@ -218,7 +218,7 @@ INSTRUCTION: 5. The fifth column covers legal information such as the refund pol
             <li>
               <a
                 id="footer-block-4-link-4"
-                class="transition duration-150 ease-in-out text-slate-400 hover:text-slate-200"
+                class="transition duration-150 ease-in-out text-white hover:text-pink-200"
                 href="#0"
               >
                 Contact Support
